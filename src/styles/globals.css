@@ -1,0 +1,105 @@
+/* ./styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .texto_negrita {
+    @apply text-black font-black;
+  }
+  .pruebota {
+    @apply bg-red-500 w-full;
+  }
+
+  .input_texto {
+    @apply shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none;
+  }
+
+  .ring_focus_red {
+    @apply focus:ring-2 focus:ring-red-600;
+  }
+  .ring_focus_blue {
+    @apply focus:ring-2 focus:ring-blue-600;
+  }
+
+  .boton_degrado_azul {
+    @apply focus:outline-none text-white text-sm py-2.5 px-5 rounded-md bg-gradient-to-r from-blue-400 to-blue-600 transform hover:scale-110 hover:bg-black;
+  }
+
+  .boton_relief_azul {
+    @apply focus:outline-none text-white text-sm py-2.5 px-5 border-b-4 border-blue-600 rounded-md bg-blue-500 hover:bg-blue-400;
+  }
+  .centrar {
+    @apply flex justify-center items-center;
+  }
+
+  .boton_hover_azul_md {
+    @apply rounded-sm inline-flex items-center ease-in-out duration-300 border text-black bg-white px-5 py-2 hover:border-blue-400 hover:text-blue-400;
+  }
+}
+
+.card {
+  border-radius: 15px 50px;
+  height: 550px;
+  width: 400px;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0 0 80px -10px black;
+  overflow: hidden;
+}
+
+.fourblack {
+  border-color: black;
+  background-image: -webkit-linear-gradient(45deg, black 50%, transparent 50%);
+  background-image: linear-gradient(45deg, black 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 400%;
+  -webkit-transition: background 350ms ease-in-out;
+  transition: background 350ms ease-in-out;
+}
+
+.fourblack:hover {
+  background-position: 0;
+}
+
+.fourorange {
+  border-color: #f59e0b;
+  background-image: -webkit-linear-gradient(
+    45deg,
+    #f59e0b 50%,
+    transparent 50%
+  );
+  background-image: linear-gradient(45deg, #f59e0b 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 400%;
+  -webkit-transition: background 350ms ease-in-out;
+  transition: background 350ms ease-in-out;
+}
+
+.fourorange:hover {
+  background-position: 0;
+}
+
+.fourgreen {
+  border-color: #34d399;
+  background-image: -webkit-linear-gradient(
+    45deg,
+    #34d399 50%,
+    transparent 50%
+  );
+  background-image: linear-gradient(45deg, #34d399 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 400%;
+  -webkit-transition: background 350ms ease-in-out;
+  transition: background 350ms ease-in-out;
+}
+
+.fourgreen:hover {
+  background-position: 0;
+}
