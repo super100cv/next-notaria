@@ -1,6 +1,4 @@
-import { Row, Col, Card, Button, Badge, Divider, Space } from "antd";
-import { Typography } from "antd";
-const { Text, Title } = Typography;
+import { Row, Col, Badge } from "antd";
 import { ShoppingCartOutlined } from "@ant-design/icons";
 import { useRouter } from "next/router";
 

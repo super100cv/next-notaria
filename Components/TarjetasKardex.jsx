@@ -1,4 +1,4 @@
-import { Card, Col, Button } from "antd";
+import { Col, Button } from "antd";
 import Moment from 'moment';
 const TarjetasKardex = ({ items }) => {
   return (

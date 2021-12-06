@@ -1,4 +1,3 @@
-import Image from "next/image";
 const Loading = () => {
   return (
     <div className="opacity-75 bg-gray-600 h-screen w-full flex justify-center items-center">
