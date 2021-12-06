@@ -1,7 +1,7 @@
 import { Divider, Input, Button, Card } from "antd";
 import { useRouter } from "next/router";
 
-import Botonestilo from "./../../Components/Componentes-Home/Botonestilo";
+import Botonestilo from "../Components/Componentes-Home/Botonestilo";
 
 const Inicio = () => {
   const { push } = useRouter();
@@ -15,7 +15,6 @@ const Inicio = () => {
         <Divider plain>Consulta tu tramite en linea</Divider>
         <button
           className="fourblack h-10 flex items-center justify-center w-full px-6 py-2 mx-2 text-sm font-medium text-white transition-colors duration-200 transform bg-blue-500 rounded-md focus:bg-black focus:outline-none"
-          estilo="fourblack"
           onClick={() => push("/Kardex/SrchKardex")}
         >
           Consulta en Linea
