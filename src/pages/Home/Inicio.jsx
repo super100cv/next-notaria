@@ -1,7 +1,7 @@
 import { Divider, Input, Button, Card } from "antd";
 import { useRouter } from "next/router";
 
-import Botonestilo from "../Components/Componentes-Home/Botonestilo";
+import Botonestilo from "./../Components/Componentes-Home/Botonestilo";
 
 const Inicio = () => {
   const { push } = useRouter();

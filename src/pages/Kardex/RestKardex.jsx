@@ -1,9 +1,9 @@
 import { Row } from "antd";
 import { useTasks } from "./../../context/taskContext";
 import { useState, useEffect } from "react";
-import TarjetasKardex from "../Components/Componentes-Kardex/TarjetasKardex";
-import HeaderKardex from "../Components/Componentes-Kardex/HeaderKardex";
-import Loading from "../Components/Componentes-Kardex/Loading";
+import TarjetasKardex from "./../Components/Componentes-Kardex/TarjetasKardex";
+import HeaderKardex from "./../Components/Componentes-Kardex/HeaderKardex";
+import Loading from "./../Components/Componentes-Kardex/Loading";
 import { useRouter } from "next/router";
 
 const RestKardex = () => {
