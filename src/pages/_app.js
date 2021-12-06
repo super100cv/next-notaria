@@ -1,7 +1,7 @@
 import "../styles/globals.css";
 import "antd/dist/antd.css";
 import BackIMAGE from "./../Components/backIMAGE";
-import { TasksProvider } from "../context/TaskContext";
+import { TasksProvider } from "./../context/taskContext";
 
 function MyApp({ Component, pageProps }) {
   return (

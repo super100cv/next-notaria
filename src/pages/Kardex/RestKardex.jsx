@@ -1,5 +1,5 @@
 import { Row } from "antd";
-import { useTasks } from "../../context/TaskContext";
+import { useTasks } from "./../../context/taskContext";
 import { useState, useEffect } from "react";
 import TarjetasKardex from "../../Components/Componentes-Kardex/TarjetasKardex";
 import HeaderKardex from "../../Components/Componentes-Kardex/HeaderKardex";
