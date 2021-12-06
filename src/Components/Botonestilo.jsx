@@ -1,4 +1,4 @@
-const Botonestilo = (props) => {
+export default function Botonestilo(props) {
   const { estilo, ...other } = props;
   const className = (estilo) => {
     switch (estilo) {
@@ -15,6 +15,4 @@ const Botonestilo = (props) => {
       <button type="button" className={className(estilo)} {...other}></button>
     </div>
   );
-};
-
-export default Botonestilo;
+}
